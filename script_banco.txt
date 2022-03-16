@@ -1,0 +1,11 @@
+create database python;
+use python;
+
+create table algas (
+ agTempo double,
+ agEspaco int
+);
+
+select * from algas;
+
+drop table algas;
